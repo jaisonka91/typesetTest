@@ -1,0 +1,18 @@
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+div[contenteditable=true] {
+  border: 1px solid #AAA;
+  height: 100px;
+  width: 300px;
+  padding: 5px;
+}
+img {
+  height: 15px;
+  width: 15px;
+}
+#data {
+  height: 100px;
+  margin: 10px;
+}
